@@ -1,12 +1,45 @@
-# React + Vite
+# 💱 Currency Converter Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Description:
+This is a responsive and fast currency converter web application built with **HTML**, **Tailwind CSS**, and **Vite**. It allows users to easily convert between different currencies using a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🚀 Features:
+- Real-time currency conversion
+- Modern responsive design
+- Built with Vite for blazing-fast performance
+- Styled using Tailwind CSS
+- Smooth user experience with minimalistic UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack:
+- HTML5
+- Tailwind CSS
+- Vite
+- JavaScript (optional, if included in the logic)
 
-## Expanding the ESLint configuration
+## 📁 Folder Structure:
+```
+/CurrencyConverter
+│── index.html
+│── package.json
+│── tailwind.config.js
+│── vite.config.js
+│── postcss.config.js
+│── .env (for API keys or configs)
+│── /node_modules
+│── /public or /src (if applicable)
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Getting Started:
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `npm run dev` to start the development server
+4. Open the browser at `http://localhost:5173`
+
+## 🌍 Live Demo:
+*(Add link if hosted on Netlify, Vercel, or GitHub Pages)*
+
+## 🤝 Contribution:
+Feel free to fork this repository and submit pull requests for improvements or fixes.
+
+## 📜 License:
+This project is open-source and available under the [MIT License](LICENSE).
