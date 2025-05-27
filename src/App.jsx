@@ -1,17 +1,12 @@
-import { useState } from 'react'
+import ConverterForm from "./components/ConverterForm"
 
-
-function App() {
- 
-
+const App = () => {
   return (
-    <>
-    <h1 className="text-3xl bg-orange-500 font-bold underline">
-      Currency app
-      
-    </h1>
-    </>
+    <div className="currency-converter">
+      <h2 className="converter-title">Currency Converter</h2>
+      <ConverterForm />
+    </div>
   )
 }
 
-export default App
+export default App;
